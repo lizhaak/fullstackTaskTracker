@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fullstack Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <h1>To Do List:</h1>
+    <input type="text" placeholder="description" id="desc">
+    <input type="date" name="" id="dateValue">
+    <button id="submit">Add To Do Item</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Due Date</th>
+          <th>Completed</th>
+        </tr>
+      </thead>
+      <tbody id="todoTable">
+        <tr id="template">
+          <td class="desc">Buy Bread</td>
+          <td class="dueDate">Tomorrow </td>
+          <td>
+            <input type="checkbox">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+</body>
+</html>
